@@ -22,7 +22,7 @@ for (let pushToken of somePushTokens) {
     sound: 'default',
     title: 'New Message from Hadi',
     body: 'limited message text here',
-    data: { withSome: 'data',url:'${roomcode-here}' },
+    data: { roomCode:'${roomcode-here}' },
     categoryId:"message:private", // categories will be documented on mobile app
 
   })
